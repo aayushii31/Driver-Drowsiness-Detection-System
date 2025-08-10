@@ -4,6 +4,7 @@ A real-time driver drowsiness detection system built with TensorFlow and OpenCV,
 
 
 🚀 Features
+
 Real-time Detection – Monitors driver’s facial features via webcam or camera feed.
 
 CNN-based Classification – Identifies states like eye open, eye closed, yawning, and no yawning.
@@ -16,6 +17,7 @@ Optimized for Speed – Designed to run smoothly in real-time environments.
 
 
 🛠 Tech Stack
+
 Python
 
 TensorFlow / Keras – CNN model for classification
@@ -26,6 +28,7 @@ NumPy & Pandas – Data handling and preprocessing
 
 
 📊 Model Training
+
 Dataset contains images of drivers with eyes open/closed and yawning/no yawning.
 
 Preprocessing includes grayscale conversion, face & eye detection, and resizing to CNN input size.
@@ -34,10 +37,12 @@ Model architecture: Convolutional + Pooling layers → Dense layers → Softmax 
 
 
 📸 Sample Output
+
 Demo Video: https://drive.google.com/file/d/1_ttXATCAf0dvCxQBgl_KCqnAww2nY9oT/view?usp=sharing
 
 
 📌 Future Improvements
+
 Add head pose estimation for more robust detection.
 
 Integrate with vehicle alert systems.
